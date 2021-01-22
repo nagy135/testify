@@ -1,3 +1,6 @@
 [submodule "testify-api"]
 	path = testify-api
 	url = https://github.com/nagy135/testify-api
+[submodule "testify-react"]
+	path = testify-react
+	url = https://github.com/nagy135/testify-react
