@@ -8,8 +8,9 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 
 # install app dependencies
-COPY ./matinka-calendar-react ./
+COPY ./testify-react ./
 
+RUN yarn update
 RUN yarn install
 
 # start app
